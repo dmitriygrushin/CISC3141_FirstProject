@@ -1,0 +1,20 @@
+.about-me-code {
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'VT323', monospace;
+  font-size: 24px;
+  color: white;
+  padding-top: 1px;
+}
+
+/* Animation */
+.about-me-code {
+  animation: animated-text 2s steps(30,end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 1300px;}
+}
